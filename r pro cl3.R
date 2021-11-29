@@ -1,0 +1,31 @@
+n <- TRUE
+print(class(n))
+n <- 236
+print(class(n))
+n <- 2L
+print(class(n))
+x <- 1:100
+typeof(x) #integer
+y <- x+1
+typeof(y) #double,twise
+n <- 5+9i
+print(class(n))
+n <- "23.5"
+print(class(n))
+n <- charToRaw("hello")
+print(class(n))
+a<-array(c('green','yellow'),dim=c(5, 3, 2))
+a=matrix(c('r-program', 'r-program'),nrow = 10,byrow = TRUE)
+
+Data1 <- data.frame(
+  gender = c("Da1" , "D2", "D3"),
+  height = c(152 , 168 , 148),
+  weight = c( 42, 5, 69),
+  age  =   c(21,22,23),
+  roll_no = c(001 , 002, 003 )
+ )
+
+print(Data1)
+MBA_1STYEAR <- data.frame(
+  names()
+)
